@@ -10,10 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "5.44.0",
-    "@strapi/provider-upload-cloudinary": "5.44.0",
-    "@strapi/strapi": "5.44.0",
-    "pg": "8.11.3",
+    "@strapi/plugin-users-permissions": "5.47.0",
+    "@strapi/provider-upload-cloudinary": "5.47.0",
+    "@strapi/strapi": "5.47.0",
+    "pg": "8.21.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -22,6 +22,13 @@
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
+  },
+  "overrides": {
+    "lodash": "4.18.1",
+    "qs": "6.15.2",
+    "esbuild": "0.25.5",
+    "uuid": "11.1.1",
+    "ajv": "8.20.0"
   },
   "engines": {
     "node": "20"
